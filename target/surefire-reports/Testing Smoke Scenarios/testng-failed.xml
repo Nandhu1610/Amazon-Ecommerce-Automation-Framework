@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Smoke Scenarios]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Smoke Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="package1.AmazonApplication.TC11_ValidatingCheckoutProcess">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="validateCheckoutProcess"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- package1.AmazonApplication.TC11_ValidatingCheckoutProcess -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Testing Smoke Scenarios] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testing Smoke Scenarios">
+  <test name="Smoke Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+	    <class name="package1.AmazonApplication.TC01_NewUserRegistration"/>
+	    <class name="package1.AmazonApplication.TC02_LoginToAmazon"/>
+	    <class name="package1.AmazonApplication.TC03_FailingLoginToAmazon"/>
+	    <class name="package1.AmazonApplication.TC04_EditUserProfileDetails"/>
+	    <class name="package1.AmazonApplication.TC05_SearchingProduct"/>
+	    <class name="package1.AmazonApplication.TC06_ProductSearchingWithFilters"/>
+	    <class name="package1.AmazonApplication.TC07_VerifyingDetailsInProductsPage"/>
+	    <class name="package1.AmazonApplication.TC08_SortingProducts"/>
+	    <class name="package1.AmazonApplication.TC09_AddProductToCart"/>
+	    <class name="package1.AmazonApplication.TC10_UpdateAndDeleteItemsFromCart"/>
+	    <class name="package1.AmazonApplication.TC11_ValidatingCheckoutProcess"/>
+	    <class name="package1.AmazonApplication.TC12_ValidateSelectingPaymentOptions"/>
+	    <class name="package1.AmazonApplication.TC15_ReachCartPageWithoutLogin"/>
+	    <class name="package1.AmazonApplication.TC16_LoginToAmazonAndLogout"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
